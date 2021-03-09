@@ -1,7 +1,7 @@
 module.exports = {
-  username: 'b20920d128440d',
-  password: 'c64b141e',
-  database: 'heroku_60ff8d9a43205ce',
+  username: 'b60dc6336b5571',
+  password: '37282af3',
+  database: 'heroku_c1958fa72f39223',
   host: 'us-cdbr-east-03.cleardb.com',
   dialect: 'mysql'
 }

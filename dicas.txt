@@ -11,7 +11,6 @@ Add .gitignore
 Criar a pasta na sua máquina com o mesmo nome do repositório criado por ti
 mkdir tituloDoRepositorio
 
-
 Clonar o repositório que acabou de criar
 
 Entrar no repositório api-node-todo e excluir a pasta .git
@@ -32,3 +31,24 @@ Procurar o repositório que vocês criaram
 Entrar em Resourcers > Add-ons e adicionar banco de dados ClearDB MySQL
 
 Entrar em Settings > Add Buildpack > adicionar heroku/nodejs
+
+Configurar APP_URL pegando a URL clicando em Open App
+
+Caso tenha problemas de migration, se conecte ao banco de dados
+e crie a tabela na "mão"
+
+create table tasks (
+	id int primary key auto_increment not null,
+	title varchar(255),
+	description varchar(255),
+	done boolean default false,
+	deleted boolean default false
+);
+
+substituir as variáveis dentro de config/database.js, passando as
+informacoes do seu banco de dados
+
+
+explicar process.env.PORT
+explicar substituição do nodemon pelo node no package.json
+explicar Procfile
