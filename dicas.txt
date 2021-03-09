@@ -1,0 +1,34 @@
+Clonar o repositório através do comando abaixo:
+git clone https://github.com/vtorres96/api-node-todo.git
+
+Criar repositório através do link abaixo:
+https://github.com/new
+
+Lembre, de não marcar as opções abaixo:
+Add a README file
+Add .gitignore
+
+Criar a pasta na sua máquina com o mesmo nome do repositório criado por ti
+mkdir tituloDoRepositorio
+
+
+Clonar o repositório que acabou de criar
+
+Entrar no repositório api-node-todo e excluir a pasta .git
+
+Copiar todo conteúdo do repositório api-node-todo
+
+Colar todo conteúdo no repositório que vocês criaram
+
+Efetuar login na conta do heroku
+
+Instalar o heroku-cli
+https://devcenter.heroku.com/articles/heroku-cli
+
+Entrar no heroku e criar um novo aplicativo
+
+Procurar o repositório que vocês criaram
+
+Entrar em Resourcers > Add-ons e adicionar banco de dados ClearDB MySQL
+
+Entrar em Settings > Add Buildpack > adicionar heroku/nodejs
